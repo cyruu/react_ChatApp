@@ -96,6 +96,7 @@
   height: 10%;
   width: 100%;
   padding: 0 15px;
+
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -146,5 +147,8 @@
   }
   .msg-input {
     flex: 0.65;
+  }
+  .sendmsg {
+    padding-right: 70px;
   }
 }
