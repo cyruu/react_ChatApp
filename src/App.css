@@ -146,9 +146,9 @@
     margin-right: 20px;
   }
   .msg-input {
-    flex: 0.65;
+    /* background-color: red; */
   }
   .sendmsg {
-    padding-right: 70px;
+    justify-content: start;
   }
 }
