@@ -142,5 +142,10 @@
   }
   .send {
     font-size: 1rem;
+    margin-right: 20px;
+  }
+  .msg-input {
+    flex: 0.65;
+    background-color: red;
   }
 }
