@@ -1,0 +1,146 @@
+.main,
+.user {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main {
+  height: 100vh;
+  background-color: rgb(33, 33, 33);
+}
+.msgbox {
+  height: 450px;
+  width: 300px;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 15px;
+  overflow: hidden;
+
+  /* background-color: red; */
+}
+.header {
+  height: 12%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: white;
+  /* background-color: blue; */
+}
+.usertitle {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.online {
+  font-size: 0.7rem;
+}
+.username {
+  /* background-color: aqua; */
+}
+
+.dp {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid lightgreen;
+  background-color: white;
+  margin-right: 10px;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.body {
+  padding: 15px;
+  height: 78%;
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.msg {
+  font-size: 0.83rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 4px 10px;
+}
+.more {
+}
+.msg-cont {
+  margin-bottom: 5px;
+}
+
+.left {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgb(230, 230, 230);
+}
+.right {
+  background-color: rgb(21, 92, 206);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: white;
+}
+.l {
+  display: flex;
+  justify-content: flex-start;
+}
+.r {
+  display: flex;
+  justify-content: flex-end;
+}
+.sendmsg {
+  height: 10%;
+  width: 100%;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.msg-input {
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  flex: 1;
+  outline: none;
+}
+.msg-cont {
+  position: relative;
+  display: flex;
+}
+.ri-send-plane-fill {
+  margin-left: 8px;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .msgbox {
+    height: 290px;
+    width: 230px;
+  }
+  .msg-input {
+    font-size: 0.8rem;
+  }
+  .usertitle {
+    font-size: 0.7rem;
+  }
+  .online {
+    font-size: 0.6rem;
+  }
+  .dp {
+    height: 25px;
+    width: 25px;
+  }
+  .more {
+    font-size: 1rem;
+  }
+  .send {
+    font-size: 1rem;
+  }
+}
