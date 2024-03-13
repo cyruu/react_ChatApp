@@ -116,7 +116,7 @@
   margin-left: 8px;
   font-size: 1.2rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 431px) {
   .main {
     display: flex;
     flex-direction: column;
