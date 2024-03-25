@@ -13,8 +13,10 @@ function AnotherMessageBox({ username }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     const text = messageForm.current.message.value;
-    dis(sendMessage({ sentBy: "maharjan", text: text }));
-    messageForm.current.message.value = "";
+    if (text.trim() != "") {
+      dis(sendMessage({ sentBy: "maharjan", text: text }));
+      messageForm.current.message.value = "";
+    }
   };
   return (
     <div className="msgbox">
