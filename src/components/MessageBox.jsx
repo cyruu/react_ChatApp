@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { sendMessage } from "../redux/slices";
 import { useDispatch, useSelector } from "react-redux";
-// first message box
+// first message box (sender)
 function MessageBox({ username }) {
   const dis = useDispatch();
   const messageForm = useRef();
